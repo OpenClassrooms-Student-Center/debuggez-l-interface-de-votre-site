@@ -75,6 +75,7 @@ const main = async () => {
     handleSensorImagesGallery(sensorData)
 
     fillWeatherForecastTable(weatherForecastData)
+    getSensorId();
 }
 
 main()
